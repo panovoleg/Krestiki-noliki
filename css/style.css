@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(111,111,111);
+    font-family: 'Segoe UI';
+    margin: 0;
+    color:rgb(0, 59,9);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 56px;
+}
+.cell{
+    border: 1px;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 34px;
+}
+.cell[data-value="X"]{
+    color: darkred;
+}
+.cell[data-value="0"]{
+    color: darkblue;
+}
+.gameBoard{
+    color: brown;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 56px;
+}
